@@ -114,8 +114,8 @@ export default {
         w: 100,
         h: 100
       },
-      maxColumnCount: 10,
-      maxRowCount: 10,
+      maxColumnCount: 16,
+      maxRowCount: 9,
       bubbleUp: false,
       margin: 5,
       layout: [ // example

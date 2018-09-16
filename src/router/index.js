@@ -10,7 +10,7 @@ export default new Router({
       path: '/',
       name: 'GridComponent',
       component: GridComponent,
-      props: {initialBoxes: [{name: 'clock', props: {width: 4, height: 4, minWidth: 3, minHeight: 3}}, {name: 'HelloWorld', props: {width: 4, height: 4, minWidth: 3, minHeight: 3}}, {name: 'clock', props: {width: 4, height: 4, minWidth: 3, minHeight: 3}}]}
+      props: {initialBoxes: [{name: 'clock', props: {width: 2, height: 1, minWidth: 2, minHeight: 1}}, {name: 'HelloWorld', props: {width: 3, height: 2, minWidth: 3, minHeight: 1}}, {name: 'clock', props: {width: 2, height: 2, minWidth: 2, minHeight: 1}}]}
     }
   ]
 })
